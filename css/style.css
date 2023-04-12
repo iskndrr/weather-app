@@ -3,6 +3,7 @@ body {
     font-family: century-gothic, sans-serif;
     font-weight: 400;
     font-style: normal;
+    
 
 }
 
@@ -48,11 +49,12 @@ input:focus-visible {
     background-image: url(../images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg);
     background-size: cover;
     background-position: center center;
+   
 }
 
-.display-temp .search {
+/* .display-temp .search {
     width: 42%;
-}
+} */
 
 .display-temp #search-bar {
     padding: 5px 15px;
@@ -61,7 +63,7 @@ input:focus-visible {
 }
 
 .display-temp .temp-card {
-    width: 32%;
+    /* width: 32%; */
     border-radius: 8px;
 }
 
@@ -124,27 +126,7 @@ input:focus-visible {
     text-shadow: 0 0 1px #455a64, 0 0 1px #455a64;
 }
 
-/* Small to Medium Screen */
-@media (max-width: 991px) {
 
-
-    /* Display Temp */
-    .display-temp .city-temp {
-        display: block !important;
-    }
-
-    .display-temp #search-bar {
-        margin-bottom: 10px !important;
-    }
-
-    .display-temp .search,
-    .display-temp .temp-card {
-        width: 100%;
-        margin: 20px 0 !important;
-    }
-
-
-}
 
 /********* End Display Temp *********/
 
