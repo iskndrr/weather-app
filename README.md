@@ -2,4 +2,5 @@
 
 live demo:
 
-https://github.com/iskndrr/weather-app/settings/pages
+
+https://iskndrr.github.io/weather-app/
